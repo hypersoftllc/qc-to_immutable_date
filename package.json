@@ -14,6 +14,7 @@
     "immutable",
     "javascript",
     "toImmutableDate",
+    "toImmutableDateOrNull",
     "typescript",
     "utility"
   ],
