@@ -56,4 +56,4 @@ function toImmutableDate(input?: any, opts?: { def?: any }): any {
 
 
 // ==========================================================================
-export { toImmutableDate, toImmutableDate as to_immutable_date };
+export { toImmutableDate };

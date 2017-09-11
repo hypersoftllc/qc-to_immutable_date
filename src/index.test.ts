@@ -1,7 +1,7 @@
 
 import { ImmutableDate } from 'qc-immutable_date';
 
-import { to_immutable_date, toImmutableDate } from './index';
+import { toImmutableDate } from './index';
 
 describe('qc-to_immutable_date', () => {
 
@@ -102,18 +102,6 @@ describe('qc-to_immutable_date', () => {
       output = toImmutableDate(input);
       expect(output).toBeInstanceOf(ImmutableDate);
       expect(output.getTime()).toBe(946684800000);
-    });
-
-  });
-
-  describe('`to_immutable_date`', () => {
-
-    it('should be a function', () => {
-      expect(typeof to_immutable_date).toBe('function');
-    });
-
-    it('should be an alias of `toDate`', () => {
-      expect(to_immutable_date).toBe(to_immutable_date);
     });
 
   });

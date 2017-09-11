@@ -13,7 +13,6 @@
     "date",
     "immutable",
     "javascript",
-    "to_immutable_date",
     "toImmutableDate",
     "typescript",
     "utility"
