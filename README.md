@@ -1,5 +1,12 @@
 # qc-to_immutable_date
 
+[![Build Status][travis-svg]][travis-url]
+[![Coverage Status][coverage-image]][coverage-url]
+[![License][license-image]][license-url]
+[![Downloads][downloads-image]][downloads-url]
+
+[![npm badge][npm-badge-png]][package-url]
+
 A simple JavaScript utility to convert various values to an `ImmutableDate`.
 
 
@@ -39,3 +46,15 @@ toImmutableDate(<not-date-like>, { def: {...} });   // The `{...}` object
 toImmutableDateOrNull(<not-date-like>);             // `null`
 toImmutableDateOrNull(<date-like>);                 // The Date
 ```
+
+
+[coverage-image]: https://coveralls.io/repos/github/hypersoftllc/qc-to_immutable_date/badge.svg?branch=master
+[coverage-url]: https://coveralls.io/github/hypersoftllc/qc-to_immutable_date?branch=master
+[downloads-image]: http://img.shields.io/npm/dm/qc-to_immutable_date.svg
+[downloads-url]: http://npm-stat.com/charts.html?package=qc-to_immutable_date
+[license-image]: http://img.shields.io/npm/l/qc-to_immutable_date.svg
+[license-url]: LICENSE
+[package-url]: https://npmjs.org/package/qc-to_immutable_date
+[npm-badge-png]: https://nodei.co/npm/qc-to_immutable_date.png?downloads=true&stars=true
+[travis-svg]: https://travis-ci.org/hypersoftllc/qc-to_immutable_date.svg?branch=master
+[travis-url]: https://travis-ci.org/hypersoftllc/qc-to_immutable_date
