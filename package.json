@@ -59,7 +59,7 @@
   },
   "dependencies": {
     "qc-immutable_date": "^0.0.0",
-    "qc-to_date": "^0.0.1"
+    "qc-to_date": "^1.0.2"
   },
   "devDependencies": {
     "@types/jest": "^19.2.2",
